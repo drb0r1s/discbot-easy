@@ -231,4 +231,4 @@ The *default name* of each command is the same as the **function name**.
 
 # Help
 
-If you need **help** using the package or have a question, contact the [author](https://www.npmjs.com/package/discbot-easy#author).
+If you need **help** using the package or have a question, contact the [author](https://github.com/drb0r1s/discbot-easy#author).
