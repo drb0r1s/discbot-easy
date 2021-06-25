@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <p>
-    <a href="https://github.com/drb0r1s/discbot-easy"><img src="https://i.imgur.com/MeisZI3.png" width="400" alt="discbot-easy" /></a>
+    <a href="https://www.npmjs.com/package/discbot-easy"><img src="https://i.imgur.com/MeisZI3.png" width="400" alt="discbot-easy" /></a>
   </p>
   <br />
   <p>
@@ -14,19 +14,19 @@
 </div>
 
 # Contents
-- [discbot-easy](https://www.npmjs.com/package/discbot-easy#discbot-easy)
-- [Installation](https://www.npmjs.com/package/discbot-easy#installation)
-- [Requirement](https://www.npmjs.com/package/discbot-easy#requirement)
-- [Example](https://www.npmjs.com/package/discbot-easy#example)
-  - [Defining the required packages.](https://www.npmjs.com/package/discbot-easy#defining-the-required-packages)
-  - [Bot](https://www.npmjs.com/package/discbot-easy#bot)
-  - [Chat](https://www.npmjs.com/package/discbot-easy#chat)
-  - [Fun](https://www.npmjs.com/package/discbot-easy#fun)
-  - [Member Management](https://www.npmjs.com/package/discbot-easy#member-management)
-  - [Server](https://www.npmjs.com/package/discbot-easy#server)
-- [Default Options](https://www.npmjs.com/package/discbot-easy#default-options)
-- [Author](https://www.npmjs.com/package/discbot-easy#author)
-- [Help](https://www.npmjs.com/package/discbot-easy#help)
+- [discbot-easy](https://github.com/drb0r1s/discbot-easy#discbot-easy)
+- [Installation](https://github.com/drb0r1s/discbot-easy#installation)
+- [Requirement](https://github.com/drb0r1s/discbot-easy#requirement)
+- [Example](https://github.com/drb0r1s/discbot-easy#example)
+  - [Defining the required packages.](https://github.com/drb0r1s/discbot-easy#defining-the-required-packages)
+  - [Bot](https://github.com/drb0r1s/discbot-easy#bot)
+  - [Chat](https://github.com/drb0r1s/discbot-easy#chat)
+  - [Fun](https://github.com/drb0r1s/discbot-easy#fun)
+  - [Member Management](https://github.com/drb0r1s/discbot-easy#member-management)
+  - [Server](https://github.com/drb0r1s/discbot-easy#server)
+- [Default Options](https://github.com/drb0r1s/discbot-easy#default-options)
+- [Author](https://github.com/drb0r1s/discbot-easy#author)
+- [Help](https://github.com/drb0r1s/discbot-easy#help)
 
 # discbot-easy
 
@@ -308,4 +308,4 @@ The *default name* of each command is the same as the **function name**.
 
 # Help
 
-If you need **help** using the package or have a question, contact the [author](https://www.npmjs.com/package/discbot-easy#author).
+If you need **help** using the package or have a question, contact the [author](https://github.com/drb0r1s/discbot-easy#author).
