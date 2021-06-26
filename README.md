@@ -64,6 +64,26 @@ discordbot.login("TOKEN");
 
 ## Bot
 
+### Help
+
+```js
+discbot.help(discordbot, {
+  prefix: "-",
+  helpCmd: "help",
+  help_text: "HELP TEXT",
+});
+```
+
+### Ping
+
+```js
+discbot.ping(discordbot, {
+  prefix: "-",
+  bot_id: "BOT ID",
+  bot_text: "BOT TEXT",
+});
+```
+
 ### Status
 
 ```js
@@ -92,6 +112,17 @@ discbot.lockchannel(discordbot, {
   prefix: "-",
   lockchannelCmd: "lockchannel",
   permission_error: "You don't have permission to do that.",
+});
+```
+
+### Purge
+
+```js
+discbot.purge(discordbot, {
+  prefix: "-",
+  purgeCmd: "purge",
+  permission_error: "You don't have permission to do that.",
+  NaN_error: "Enter the number of messages you want to delete.",
 });
 ```
 
@@ -140,6 +171,16 @@ discbot.avatar(discordbot, {
 });
 ```
 
+### Dice
+
+```js
+discbot.dice(discordbot, {
+  prefix: "-",
+  diceCmd: "dice",
+  dice_text: "Your number is:",
+});
+```
+
 ### Randomnumber
 
 ```js
@@ -171,7 +212,7 @@ discbot.ban(discordbot, {
   banCmd: "ban",
   permission_error: "You don't have permission to do that.",
   mention_error: "Mention someone.",
-  higher_role_error: "You can't kick him.",
+  higher_role_error: "You can't ban him.",
   reason_error: "Enter a reason.",
 });
 ```
@@ -236,7 +277,7 @@ discbot.setname(discordbot, {
   permission_error: "You don't have permission to do that.",
   mention_error: "Mention someone.",
   newName_error: "Enter a new username.",
-})
+});
 ```
 
 ### Stats
