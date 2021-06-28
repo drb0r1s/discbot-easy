@@ -93,6 +93,16 @@ discbot.status(discordbot, {
 });
 ```
 
+### Suggest
+
+```js
+discbot.suggest(discordbot, {
+  prefix: "-",
+  suggestCmd: "suggest",
+  suggestion_error: "Enter your suggestion."
+});
+```
+
 ### Welcome
 
 ```js
@@ -178,6 +188,17 @@ discbot.dice(discordbot, {
   prefix: "-",
   diceCmd: "dice",
   dice_text: "Your number is:",
+});
+```
+
+### Message
+
+```js
+discbot.message(discordbot, {
+  prefix: "-",
+  messageCmd: "message",
+  mention_error: "Mention someone.",
+  text_error: "Enter text.",
 });
 ```
 
