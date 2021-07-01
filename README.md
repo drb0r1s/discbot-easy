@@ -22,6 +22,7 @@
   - [Bot](https://github.com/drb0r1s/discbot-easy#bot)
   - [Chat](https://github.com/drb0r1s/discbot-easy#chat)
   - [Fun](https://github.com/drb0r1s/discbot-easy#fun)
+  - [Giveaway](https://github.com/drb0r1s/discbot-easy#giveaway)
   - [Member Management](https://github.com/drb0r1s/discbot-easy#member-management)
   - [Server](https://github.com/drb0r1s/discbot-easy#server)
 - [Default Options](https://github.com/drb0r1s/discbot-easy#default-options)
@@ -100,6 +101,19 @@ discbot.suggest(discordbot, {
   prefix: "-",
   suggestCmd: "suggest",
   suggestion_error: "Enter your suggestion."
+});
+```
+
+### Timer
+
+```js
+discbot.timer(discordbot, {
+  prefix: "-",
+  timerCmd: "timer",
+  time_error: "Enter time (seconds).",
+  NaN_error: "Enter a valid time.",
+  min_time_error: "Time should be more than or equal to 0.",
+  reason_error: "Enter reason.",
 });
 ```
 
@@ -220,6 +234,25 @@ discbot.say(discordbot, {
   prefix: "-",
   sayCmd: "say",
   text_error: "Enter text.",
+});
+```
+
+## Giveaway
+
+### Creategw
+
+```js
+discbot.creategw(discordbot, {
+  prefix: "-",
+  creategwCmd: "creategw",
+  permission_error: "You don't have permission to do that.",
+  channel_error: "Mention channel.",
+  timer_error: "Enter time.",
+  winner_error: "Enter number of winners.",
+  NaN_error: "Enter a valid number.",
+  prize_error: "Enter prize.",
+  giveaway_emoji: "🎉",
+  no_reaction_error: "Not enough people reacted.",
 });
 ```
 
