@@ -65,6 +65,16 @@ discordbot.login("TOKEN");
 
 ## Bot
 
+### Boost Info
+
+```js
+discbot.boostinfo(discordbot, {
+  channel_id: "CHANNEL ID",
+  booster_text: "Member has boosted the server.",
+  notBooster_text: "Member has unboosted the server.",
+});
+```
+
 ### Help
 
 ```js
