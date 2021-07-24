@@ -1,6 +1,6 @@
 {
   "name": "discbot-easy",
-  "version": "2.2.4",
+  "version": "4.3.5",
   "description": "Easy communication and management of discord.js.",
   "main": "discbot.js",
   "scripts": {
