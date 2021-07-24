@@ -24,6 +24,7 @@
   - [Fun](https://github.com/drb0r1s/discbot-easy#fun)
   - [Giveaway](https://github.com/drb0r1s/discbot-easy#giveaway)
   - [Member Management](https://github.com/drb0r1s/discbot-easy#member-management)
+  - [Search](https://github.com/drb0r1s/discbot-easy#search)
   - [Server](https://github.com/drb0r1s/discbot-easy#server)
 - [Default Options](https://github.com/drb0r1s/discbot-easy#default-options)
 - [Author](https://github.com/drb0r1s/discbot-easy#author)
@@ -226,6 +227,15 @@ discbot.message(discordbot, {
 });
 ```
 
+### Mydevice
+
+```js
+discbot.mydevice(discordbot, {
+  prefix: "-",
+  mydeviceCmd: "mydevice",
+});
+```
+
 ### Randomnumber
 
 ```js
@@ -257,7 +267,7 @@ discbot.creategw(discordbot, {
   creategwCmd: "creategw",
   permission_error: "You don't have permission to do that.",
   channel_error: "Mention channel.",
-  timer_error: "Enter time.",
+  timer_error: "Enter time (minutes).",
   winner_error: "Enter number of winners.",
   NaN_error: "Enter a valid number.",
   prize_error: "Enter prize.",
@@ -363,6 +373,18 @@ discbot.unmute(discordbot, {
   mention_error: "Mention someone.",
   role_id: "ROLE ID",
   not_muted_error: "This user is not muted.",
+});
+```
+
+## Search
+
+### Google
+
+```js
+discbot.google(discordbot, {
+  prefix: "-",
+  googleCmd: "google",
+  text_error: "Enter text.",
 });
 ```
 
