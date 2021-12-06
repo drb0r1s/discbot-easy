@@ -431,7 +431,8 @@ The *default name* of each command is the same as the **function name**.
 
 **drb0r1s**
 
-*Discord:* **boris**#1111
+*Github:* **drb0r1s**
+*Discord:* **boris**#1171
 
 # Help
 
